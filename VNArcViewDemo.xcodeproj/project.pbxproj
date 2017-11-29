@@ -14,6 +14,8 @@
 		AB92224B1FCE91F000528076 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9222491FCE91F000528076 /* LaunchScreen.storyboard */; };
 		AB9222561FCE91F000528076 /* VNArcViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9222551FCE91F000528076 /* VNArcViewDemoTests.swift */; };
 		AB9222611FCE91F000528076 /* VNArcViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9222601FCE91F000528076 /* VNArcViewDemoUITests.swift */; };
+		AB9222701FCE922200528076 /* VNArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB92226F1FCE922200528076 /* VNArcView.swift */; };
+		AB9222721FCE923600528076 /* VNArcView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB9222711FCE923600528076 /* VNArcView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		AB92225C1FCE91F000528076 /* VNArcViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VNArcViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9222601FCE91F000528076 /* VNArcViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VNArcViewDemoUITests.swift; sourceTree = "<group>"; };
 		AB9222621FCE91F000528076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB92226F1FCE922200528076 /* VNArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VNArcView.swift; sourceTree = "<group>"; };
+		AB9222711FCE923600528076 /* VNArcView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VNArcView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		AB92223F1FCE91F000528076 /* VNArcViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AB92226E1FCE91FC00528076 /* VNArcView */,
 				AB9222401FCE91F000528076 /* AppDelegate.swift */,
 				AB9222421FCE91F000528076 /* ViewController.swift */,
 				AB9222441FCE91F000528076 /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				AB9222621FCE91F000528076 /* Info.plist */,
 			);
 			path = VNArcViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		AB92226E1FCE91FC00528076 /* VNArcView */ = {
+			isa = PBXGroup;
+			children = (
+				AB92226F1FCE922200528076 /* VNArcView.swift */,
+				AB9222711FCE923600528076 /* VNArcView.xib */,
+			);
+			path = VNArcView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +249,7 @@
 				AB92224B1FCE91F000528076 /* LaunchScreen.storyboard in Resources */,
 				AB9222481FCE91F000528076 /* Assets.xcassets in Resources */,
 				AB9222461FCE91F000528076 /* Main.storyboard in Resources */,
+				AB9222721FCE923600528076 /* VNArcView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB9222701FCE922200528076 /* VNArcView.swift in Sources */,
 				AB9222431FCE91F000528076 /* ViewController.swift in Sources */,
 				AB9222411FCE91F000528076 /* AppDelegate.swift in Sources */,
 			);
@@ -427,7 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2658J76W2S;
+				DEVELOPMENT_TEAM = B84QZ7G2Y8;
 				INFOPLIST_FILE = VNArcViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.varun.VNArcViewDemo;
@@ -442,7 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2658J76W2S;
+				DEVELOPMENT_TEAM = B84QZ7G2Y8;
 				INFOPLIST_FILE = VNArcViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.varun.VNArcViewDemo;

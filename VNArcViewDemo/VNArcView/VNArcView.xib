@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VNArcView" customModule="VNArcViewDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="labelUnit" destination="bTF-KO-Efz" id="b6Y-N9-bps"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="THf-Wh-7V6">
+                    <rect key="frame" x="8" y="101" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="7fh-BL-dxp"/>
+                        <constraint firstAttribute="width" constant="42" id="PNl-Uh-u0a"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D0V-AT-MwD">
+                    <rect key="frame" x="80" y="101" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="ZlF-1T-IXJ"/>
+                        <constraint firstAttribute="width" constant="42" id="fXY-0S-wuU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mV/V" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="bTF-KO-Efz">
+                    <rect key="frame" x="8" y="44" width="114" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="bTF-KO-Efz" secondAttribute="height" multiplier="2:1" constant="30" id="kMR-u9-0UF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="THf-Wh-7V6" secondAttribute="bottom" constant="8" id="0qE-z5-A0b"/>
+                <constraint firstItem="bTF-KO-Efz" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="21:65" constant="72" id="4ih-5x-gj9"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="D0V-AT-MwD" secondAttribute="bottom" constant="8" id="FsE-A3-hAS"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="D0V-AT-MwD" secondAttribute="trailing" constant="8" id="J36-dG-NOf"/>
+                <constraint firstItem="bTF-KO-Efz" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="cWm-GT-gQ8"/>
+                <constraint firstItem="THf-Wh-7V6" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="wYV-n5-GlE"/>
+                <constraint firstItem="bTF-KO-Efz" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="yf1-id-07o"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-97" y="-216"/>
+        </view>
+    </objects>
+</document>
